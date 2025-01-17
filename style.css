@@ -1,0 +1,99 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #6e7fcb, #7f4e9e); /* Gradient background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    color: #fff;
+}
+
+/* Container styling */
+.container {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* Input field styling */
+input {
+    padding: 15px;
+    font-size: 16px;
+    margin-top: 15px;
+    width: 100%;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    background-color: #333;
+    color: #fff;
+}
+
+input:focus {
+    outline: none;
+    border-color: #7f4e9e;
+}
+
+/* Search button styling */
+button {
+    padding: 15px;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 100%;
+    background-color: #7f4e9e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #6e7fcb;
+}
+
+/* Weather info display */
+#weatherInfo {
+    margin-top: 30px;
+}
+
+#weatherInfo p {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#weatherInfo .temperature {
+    font-size: 2.5rem;
+    color: #FFDD57; /* Yellow color for temperature */
+}
+
+#error {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Loading spinner */
+#loading {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
