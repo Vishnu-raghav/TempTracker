@@ -1,14 +1,13 @@
-/* Basic reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body styling */
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #6e7fcb, #7f4e9e); /* Gradient background */
+    background: linear-gradient(135deg, #6e7fcb, #7f4e9e); 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +16,7 @@ body {
     color: #fff;
 }
 
-/* Container styling */
+
 .container {
     background-color: rgba(0, 0, 0, 0.3);
     padding: 30px;
@@ -33,7 +32,7 @@ h1 {
     color: #fff;
 }
 
-/* Input field styling */
+
 input {
     padding: 15px;
     font-size: 16px;
@@ -50,7 +49,7 @@ input:focus {
     border-color: #7f4e9e;
 }
 
-/* Search button styling */
+
 button {
     padding: 15px;
     font-size: 16px;
@@ -68,7 +67,7 @@ button:hover {
     background-color: #6e7fcb;
 }
 
-/* Weather info display */
+
 #weatherInfo {
     margin-top: 30px;
 }
@@ -81,7 +80,7 @@ button:hover {
 
 #weatherInfo .temperature {
     font-size: 2.5rem;
-    color: #FFDD57; /* Yellow color for temperature */
+    color: #FFDD57; 
 }
 
 #error {
@@ -90,7 +89,7 @@ button:hover {
     margin-top: 10px;
 }
 
-/* Loading spinner */
+
 #loading {
     color: #fff;
     font-size: 18px;
